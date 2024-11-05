@@ -1,0 +1,29 @@
+html{
+	font-size: 16px;
+}
+body{
+	background-color: #537bc3 ;
+}
+.centered-div {
+	height: 100vh; 
+	display: flex;
+	flex-direction: column;
+	ustify-content: flex-start;
+	align-items: center;
+}
+.home-screen{
+	width: 25vw;
+	height: 80vh;
+	background-color: #3f5f98;
+	border-radius: 15px;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	color: white;
+	margin: 10vh auto;
+}
+.home-screen img{
+	max-width: 15vw;
+	height: auto;
+}
+.home-screen h1{
+	font-size: 2rem;
+}
