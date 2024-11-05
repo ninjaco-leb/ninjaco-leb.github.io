@@ -13,6 +13,7 @@ body{
 }
 .home-screen{
 	width: 25vw;
+	min-width: 300px;
 	height: 80vh;
 	background-color: #3f5f98;
 	border-radius: 15px;
@@ -22,6 +23,7 @@ body{
 }
 .home-screen img{
 	max-width: 15vw;
+	min-width: 130px;
 	height: auto;
 }
 .home-screen h1{
