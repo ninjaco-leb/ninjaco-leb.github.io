@@ -7,7 +7,6 @@ body {
 	font-size: 16px;
 }
 .centered-div {
-	height: 100vh; 
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -16,7 +15,7 @@ body {
 .home-screen {
 	width: 25vw;
 	min-width: 300px;
-	height: 80vh;
+	padding: 20px;
 	background-color: #3f5f98;
 	border-radius: 15px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
@@ -82,7 +81,7 @@ body {
 	transition: opacity 0.3s ease;
 }
 
-.username, .password{
+.username, .password, .forget-password{
 	margin-bottom: 20px;
 }
 
@@ -140,4 +139,25 @@ body {
 .btn-primary:active {
 	transform: scale(0.95); 
 	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+.forget-password {
+	width: 100%; /* Ensure it takes full width */
+	text-align: right; /* Align the link to the right */
+}
+.forget-password a {
+	font-size: 0.75rem;
+	display: inline-block; /* Ensures the link behaves like a block element */
+	color: white; /* Ensures the text is visible */
+	cursor: pointer;
+}
+.wd-100{
+	width: 100%;
+}
+.dis-flex-cen{
+	display: flex;
+	justify-content: center;
+}
+.dis-flex-right{
+	display: flex;
+	justify-content: right;
 }
