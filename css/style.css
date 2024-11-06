@@ -31,6 +31,7 @@ body {
 }
 .home-screen h1 {
 	font-size: 1rem;
+	text-align: center;
 }
 .home-screen input {
 	outline: none;
@@ -82,7 +83,7 @@ body {
 }
 
 .username, .password{
-	margin-bottom: 15px;
+	margin-bottom: 20px;
 }
 
 .username::before, .password::before {
@@ -127,4 +128,16 @@ body {
 	border: none;
 	border-radius: 15px;
 	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+	cursor: pointer;
+	transition: transform 0.1s ease, box-shadow 0.1s ease; 
+}
+/* Pointer cursor on hover */
+.btn-primary:hover {
+	background-color: #e8e8e8; 
+}
+
+/* Click effect */
+.btn-primary:active {
+	transform: scale(0.95); 
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
